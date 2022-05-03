@@ -1,7 +1,7 @@
 {
   "name": "express-react-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project contains an express server application and a react app bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "scripts": {
     "server": "cd server && npm start",
     "client": "cd client && npm start",
@@ -13,6 +13,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.1.0"
-  }
+    "all": "^0.0.0",
+    "components": "^0.1.0",
+    "concurrently": "^7.1.0",
+    "styled": "^1.0.0",
+    "styled-components": "^5.3.5"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamedbahrami479/CapStone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamedbahrami479/CapStone/issues"
+  },
+  "homepage": "https://github.com/hamedbahrami479/CapStone#readme"
 }
