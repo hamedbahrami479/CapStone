@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
-/*import Name from './Components/Header'*/
+import HGIB from './Components/Header';
+import SearchButton from './Components/button'
 
 function App() {
   const [product, setProduct] = useState();
@@ -8,7 +9,8 @@ function App() {
   return (
     <body className="body">
       <form>
-        <h1>What would You like to give back?</h1>
+        <HGIB />
+        <h1 className="question">What would You like to give back?</h1>
         <select
           className="custom-select"
           id="SelectID"
@@ -28,7 +30,7 @@ function App() {
         {product}
         <br></br>
         <br></br>
-        <button>Search</button>
+        <SearchButton />
         <h2>Best Handling would be:</h2>
         <label for="result">Close the Circle</label>
         <br></br>

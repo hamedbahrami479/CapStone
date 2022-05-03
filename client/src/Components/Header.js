@@ -1,18 +1,28 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
-const Name = () => {
-    return( <NameStyles>Give It Back It`s worthit </NameStyles>
-    );
+const HGIB = () => {
+  return (
+    <Header>
+      <HgibStylesOne>Give It Back </HgibStylesOne>
+      <HgibStylesTwo>It`s worthit</HgibStylesTwo>
+      <hr></hr>
+    </Header>
+  );
 };
 
-const NameStyles = styled.h1`
-height: 75px;
-justify-content: center;
-margin: 5px; 
-border: 3px black solid;
-align-items: center;
-color: white;
-background-color: green
+const HgibStylesOne = styled.h1`
+  justify-content: center;
+  text-align: center;
 `;
-export default Name;
+
+const HgibStylesTwo = styled.h1`
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+`;
+const Header = styled.div`
+  background-color: green;
+`;
+
+export default HGIB;
