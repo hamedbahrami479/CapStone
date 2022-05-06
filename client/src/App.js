@@ -1,12 +1,13 @@
+import React, { useState } from 'react';
 import './App.css';
 import HGIB from './Components/Header';
 import DropDown from './Components/DropDown';
 import SearchButton from './Components/button';
 import ResultBox from './Components/ResultBox';
 
-const [product, setProduct] = useState();
 
 function App() {
+  const [product, setProduct] = useState();
   return (
     <body className="body">
       <form>

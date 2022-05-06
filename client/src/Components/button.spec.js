@@ -14,5 +14,5 @@ describe("Test for Button Component", () => {
 it("should render button component", () => {
 const {getByText} = render(<SearchButton/>)
 expect(getByText("Search")).toBeInTheDocument();
-})
-})
+});
+});
