@@ -3,14 +3,15 @@ import styled from 'styled-components';
 
 const SearchButton = () => {
   return (
-    <buttonStylesOne>
-      <buttonStylesTwo>
+    <div className='container'>
+      
         <button>Search</button>
-      </buttonStylesTwo>
-    </buttonStylesOne>
+    
+    </div>
   );
 };
 
+/*
 const buttonStylesOne = styled.div`
   height: 200px;
   position: relative;
@@ -24,5 +25,5 @@ const buttonStylesTwo = styled.div`
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 `;
-
+*/
 export default SearchButton;
