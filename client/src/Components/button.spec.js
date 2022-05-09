@@ -1,7 +1,7 @@
 //Button.test.js
 
 import React from 'react';
-import SearchButton from './button';
+import SearchButton from './Button';
 import {render, fireEvent} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 

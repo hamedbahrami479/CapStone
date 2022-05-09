@@ -4,21 +4,30 @@ function DropDown() {
   const [product, setProduct] = useState();
   return (
     <div>
+      <label for="category-select">Choose your category:</label>
+      <br></br>
+      <br></br>
       <select
+        name="selectProduct"
         className="custom-select"
-        id="SelectID"
+        id="category-select"
         value={product}
         onChange={e => setProduct(e.target.value)}
       >
-        <option>Select an Option</option>
-        <option>Plastic Transparent</option>
-        <option>Plastic Black</option>
-        <option>Aluminum</option>
-        <option>Aluminum Contaminated</option>
-        <option>Paper Contaminated</option>
-        <option>Paper Coated</option>
-        <option>Paper Clean</option>
+        <option value="" selected>
+          --Please choose an Option--
+        </option>
+        <option value="Plasctic Transparent">Plastic Transparent</option>
+        <option value="Plastic Black">Plastic Black</option>
+        <option value="Aluminum">Aluminum</option>
+        <option value="Aluminum Contaminated">Aluminum Contaminated</option>
+        <option value="Paper Contaminated">Paper Contaminated</option>
+        <option value="Paper Coated">Paper Coated</option>
+        <option value="Paper Clean">Paper Clean</option>
       </select>
+      <br></br>
+      <br></br>
+      {product}
     </div>
   );
 }

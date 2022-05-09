@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const HGIB = () => {
-    return( <Header>
+const Header = () => {
+    return( <HeaderStyled>
         <HgibStylesOne>Give It Back </HgibStylesOne>
         <HgibStylesTwo>It`s worthit</HgibStylesTwo>
         <hr></hr>
-        </Header>
+        </HeaderStyled>
     );
 };
 
@@ -20,8 +20,8 @@ justify-content: center;
 text-align: center;
 font-size: 40 px;
 `
-const Header = styled.div`
+const HeaderStyled = styled.div`
 background-color: green;
 `
 
-export default HGIB;
+export default Header;
