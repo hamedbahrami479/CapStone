@@ -8,7 +8,6 @@ describe("Test for DropDown Component", () => {
         expect(asFragment(DropDown)).toMatchSnapshot();
 });
 
-
 it("should have the text as defined in the DropDown Component", () => {
     const {SelectorMatcherOptions} = render(<DropDown/>)
     expect(screen.getByText(/Plastic Transparent/i)).toHaveTextContent('Plastic Transparent');

@@ -1,5 +1,3 @@
-//Header.test.js
-
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Header from './Header';
@@ -12,7 +10,7 @@ describe('Test for Header Component HGIB', () => {
     expect(asFragment(<Header />)).toMatchSnapshot();
   });
 
-  it('snapshot p tag in Header', () => {
+  it('snapshots p tag in Header', () => {
     const { asFragment } = render(<HgibStylesOne />);
     expect(asFragment(<HgibStylesOne />)).toMatchSnapshot();
   });
