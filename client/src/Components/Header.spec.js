@@ -10,7 +10,7 @@ describe('Test for Header Component HGIB', () => {
     expect(asFragment(<HGIB />)).toMatchSnapshot();
   });
 
-  it('snapshot p tag in Header', () => {
+  it('snapshots p tag in Header', () => {
     const { asFragment } = render(<HgibStylesOne />);
     expect(asFragment(<HgibStylesOne />)).toMatchSnapshot();
 
