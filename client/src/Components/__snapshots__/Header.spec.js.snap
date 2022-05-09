@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Header Component HGIB snapshot header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot header component 2`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot header component 3`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot p component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot p tag in Header 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot p tag in Header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot second p tag header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot second p tag in header 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Test for Header Component HGIB snapshot second p tag in header component 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-dkzDqf coOZjv"
+  >
+    <h1
+      class="sc-bczRLJ eUuSTf"
+    >
+      Give It Back 
+    </h1>
+    <h1
+      class="sc-gsnTZi bGFuGh"
+    >
+      It\`s worthit
+    </h1>
+    <hr />
+  </div>
+</DocumentFragment>
+`;

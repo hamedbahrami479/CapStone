@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for DropDown Component snapshot DropDown component 1`] = `
+<DocumentFragment>
+  <div>
+    <select
+      class="custom-select"
+      id="SelectID"
+    >
+      <option>
+        Select an Option
+      </option>
+      <option>
+        Plastic Transparent
+      </option>
+      <option>
+        Plastic Black
+      </option>
+      <option>
+        Aluminum
+      </option>
+      <option>
+        Aluminum Contaminated
+      </option>
+      <option>
+        Paper Contaminated
+      </option>
+      <option>
+        Paper Coated
+      </option>
+      <option>
+        Paper Clean
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;
