@@ -5,7 +5,7 @@ import HgibStylesOne from './Header';
 import HgibStylesTwo from './Header';
 
 describe('Test for Header Component HGIB', () => {
-  it('snapshot header component', () => {
+  it('snapshots header component', () => {
     const { asFragment } = render(<HGIB />);
     expect(asFragment(<HGIB />)).toMatchSnapshot();
   });
