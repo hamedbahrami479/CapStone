@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import HGIB from './Components/Header';
 import DropDown from './Components/DropDown';
-import SearchButton from './Components/button';
+import SearchButton from './Components/Button';
 import ResultBox from './Components/ResultBox';
 
 
