@@ -20,7 +20,7 @@ function App() {
         <br></br>
         <SearchButton />
         <h2 className="handling">Best Handling would be:</h2>
-        <label className="label" for="result">
+        <label className="label" htmlFor="result">
           {' '}
         </label>
         <br></br>
