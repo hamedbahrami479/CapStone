@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import DropDown from './Components/DropDown';
 import SearchButton from './Components/Button';
 import ResultBox from './Components/ResultBox';
-import productHandling from './Components/Daten';
+import { productData } from './Components/Daten';
 
 function App() {
   const [product, setProduct] = useState();

@@ -1,6 +1,5 @@
 
-
-export const productHandling = [
+const productData = [
 
     {
     id: '1',
@@ -59,3 +58,5 @@ export const productHandling = [
     },
 
     ];
+
+    export default productData;

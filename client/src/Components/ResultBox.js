@@ -1,13 +1,29 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import productHandling from './Daten';
+import SearchButton from './Components/Button';
+import { productData } from './Components/Daten';
 
-function ResultBox({ productHandling }) {
+function ResultBox({ productData}) {
   const [product, setProduct] = useState(false);
-  return <InputContainer type="text" id="result" name="result">
+
+  return (
+    <>
+      {product ? (
+
+        <InputContainer type="text" id="result" name="result">
+<SearchButton onClick={() => setProduct(true)}>Search</SearchButton>
+          <HandlingImage src={productHandling.image} alt={""}></HandlingImage></HandlingImage>
 
     
-  </InputContainer>;
+        </InputContainer>;
+
+      ) : (
+        
+        ""
+
+      )}
+    </>
+  );
 }
 
 export default ResultBox;
@@ -21,3 +37,7 @@ const InputContainer = styled.input`
   margin: auto;
   display: block;
 `;
+
+const HandlingImage = styled.image`
+width: 75%;
+`
