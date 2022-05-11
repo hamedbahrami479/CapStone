@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react'
 
-const ResultBox = () => {
+
+const ResultBox= () => {
   return <input className="resultBox" type="text" id="result" name="result"></input>;
 };
 
