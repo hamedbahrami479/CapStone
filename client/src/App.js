@@ -4,10 +4,10 @@ import Header from './Components/Header';
 import DropDown from './Components/DropDown';
 import SearchButton from './Components/Button';
 import ResultBox from './Components/ResultBox';
-import { productDatas } from './Components/Daten';
+import { products } from './Components/productData';
 
 function App() {
-  const [product, setProduct] = useState();
+  const [isSelected, setIsSelected] = useState();
   return (
     <body className="body">
       <form>
@@ -15,7 +15,7 @@ function App() {
         <h1 className="question">What would You like to give back?</h1>
         <DropDown />
         <br></br>
-        {product}
+        {isSelected}
         <br></br>
         <br></br>
         <SearchButton />
@@ -25,7 +25,7 @@ function App() {
           {' '}
         </label>
         <br></br>
-        <ResultBox />
+        <ResultBox products={products} />
       </form>
     </body>
   );

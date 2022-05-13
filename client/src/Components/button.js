@@ -11,6 +11,7 @@ const SearchButton = () => {
 };
 
 const ButtonStyled = styled.button`
+  justify-content: flex-end;
   padding: 0.7rem 2rem;
   border-radius: 0.5rem;
   background-color: var(--color-red);

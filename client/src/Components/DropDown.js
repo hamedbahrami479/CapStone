@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function DropDown() {
-  const [product, setProduct] = useState();
+  const [isSelected, setIsSelected] = useState();
   return (
     <div>
       <label for="category-select">Choose your category:</label>
@@ -11,8 +11,8 @@ function DropDown() {
         name="selectProduct"
         className="custom-select"
         id="category-select"
-        value={product}
-        onChange={e => setProduct(e.target.value)}
+        value={isSelected}
+        onChange={e => setIsSelected(e.target.value)}
       >
         <option value="" selected>
           --Please choose an Option--
@@ -27,7 +27,7 @@ function DropDown() {
       </select>
       <br></br>
       <br></br>
-      {product}
+      {isSelected}
     </div>
   );
 }
