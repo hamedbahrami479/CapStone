@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-function DropDown() {
-  const [isSelected, setIsSelected] = useState();
+function DropDown({isSelected}) {
   return (
     <div>
       <label for="category-select">Choose your category:</label>
@@ -27,7 +26,7 @@ function DropDown() {
       </select>
       <br></br>
       <br></br>
-      {isSelected}
+      {/* {isSelected} */}
     </div>
   );
 }

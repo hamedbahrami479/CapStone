@@ -7,16 +7,13 @@ import ResultBox from './Components/ResultBox';
 import { products } from './Components/productData';
 
 function App() {
-  const [isSelected, setIsSelected] = useState();
+  const [isSelected, setIsSelected] = useState(false);
   return (
     <body className="body">
       <form>
         <Header />
         <h1 className="question">What would You like to give back?</h1>
-        <DropDown />
-        <br></br>
-        {isSelected}
-        <br></br>
+        <DropDown isSelected={isSelected} />
         <br></br>
         <SearchButton />
         <h2 className="handling">Best Handling would be:</h2>
@@ -25,7 +22,7 @@ function App() {
           {' '}
         </label>
         <br></br>
-        <ResultBox products={products} />
+        <ResultBox products={products} isSelected={isSelected} />
       </form>
     </body>
   );
