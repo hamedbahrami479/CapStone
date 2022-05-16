@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import SearchButton from './Button';
-
 
 
 function ResultBox({ products, isSelected_DropDown }) {
@@ -23,24 +21,23 @@ function ResultBox({ products, isSelected_DropDown }) {
 
   const product_advice = productData
     .filter(data => data.productcategory === isSelected_DropDown)
-    .map(data => data.advice)
+    .map(data => data.advice);
 
   return (
     <>
-    <br></br>
-    <button>Search</button>
-    <br></br>
-    {isSelected_DropDown}
-    <h2 className="handling">Best Handling would be:</h2>
-    <InputContainer>
-      <Handling>{product_handling}</Handling>
-      <HandlingImage src={product_image} alt={''}></HandlingImage>
-      <HandlingAdvice>{product_advice}</HandlingAdvice>
+      <br></br>
+      <br></br>
+      <h2 className="handling">Best Handling would be:</h2>
+      <InputContainer>
+        <Handling>{product_handling}</Handling>
+        <HandlingImage src={product_image} alt={''}></HandlingImage>
+        <HandlingAdvice>{product_advice}</HandlingAdvice>
       </InputContainer>
     </>
   );
 }
-
+{
+}
 export default ResultBox;
 
 const InputContainer = styled.section`
@@ -62,5 +59,5 @@ const Handling = styled.h1`
 `;
 
 const HandlingAdvice = styled.p`
-font-size: 1rem;
+  font-size: 1rem;
 `;
