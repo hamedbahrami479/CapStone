@@ -1,13 +1,6 @@
 
 
 export const products = [
-  {
-    id: '1',
-    productcategory: 'Plastic Transparent',
-    handling: 'Yellow Bin',
-    advice: '',
-    image: require('./Picture/Yellow-Bin.png'),
-  },
 
   {
     id: '2',
@@ -38,7 +31,7 @@ export const products = [
     id: '5',
     productcategory: 'Paper Contaminated',
     handling: 'Black Bin',
-    advice: '',
+    advice: 'Unfortunately Paper will only be recycled and reused, when it is clean. Washing the recycled supply is not part of the sorting process.',
     image: require('./Picture/Black-Bin.png'),
   },
 
@@ -46,7 +39,7 @@ export const products = [
     id: '6',
     productcategory: 'Paper Coated',
     handling: 'Black Bin',
-    advice: '',
+    advice: 'Unfortunately Paper will only be recycled and reused, when it is clean and uncoated. Washing the recycled supply is not part of the sorting process.',
     image: require('./Picture/Black-Bin.png'),
   },
 
@@ -54,8 +47,24 @@ export const products = [
     id: '7',
     productcategory: 'Paper Clean',
     handling: 'Blue Bin',
-    advice: '',
+    advice: 'Only clean Paper is subject to be reused and made new paper products with.',
     image: require('./Picture/Blue-Bin.png'),
+  },
+
+  {
+  id: '8',
+  productcategory: 'Automotive Supply',
+  handling: 'Special Handling by your nearest Recycling Center',
+  advice: 'Regardless whether it is engine oil, gearing oil, cooling fluid, breaking fluid or body metall, all these materials need special handling. Did you know: Every seller of engine oil is obligated to take the used oil in exchange. Just fill it into the can you just received with the new oil and Give It Back. :)',
+  image: require('./Picture/Special.png'),
+  },
+
+  {
+    id: '9',
+    productcategory: 'Plasctic Transparent',
+    handling: 'Yellow Bin',
+    advice: 'Best would be to seperate all items from each other and just put it into regualr yellow.',
+    image: require('./Picture/Yellow-Bin.png'),
   },
 ];
 

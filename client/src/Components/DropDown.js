@@ -26,6 +26,8 @@ function DropDown({ products }) {
         <option value="Paper Contaminated">Paper Contaminated</option>
         <option value="Paper Coated">Paper Coated</option>
         <option value="Paper Clean">Paper Clean</option>
+        <option value="Automotive Supply">Automotive Supply</option>
+        <option value="Glas">Glas</option>
       </select>
       {/* ResultBox werden die props products und isSelected_DropDown übergeben: DropDown.js -> ResultBox.js */}
       { <ResultBox products={products} isSelected_DropDown={isSelected_DropDown} />}
