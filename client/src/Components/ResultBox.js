@@ -27,6 +27,11 @@ function ResultBox({ products, isSelected_DropDown }) {
 
   return (
     <>
+    <br></br>
+    <button>Search</button>
+    <br></br>
+    {isSelected_DropDown}
+    <h2 className="handling">Best Handling would be:</h2>
     <InputContainer>
       <Handling>{product_handling}</Handling>
       <HandlingImage src={product_image} alt={''}></HandlingImage>
