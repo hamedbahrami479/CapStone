@@ -1,4 +1,5 @@
 export const products = [
+ 
   {
     id: '2',
     productcategory: 'Plastic Black',
@@ -61,11 +62,21 @@ export const products = [
   },
 
   {
-    id: '9',
+    id: '1',
     productcategory: 'Plasctic Transparent',
     handling: 'Yellow Bin',
     advice:
       'Best would be to seperate all items from each other and just put it into regular yellow.',
     image: require('./Picture/Yellow-Bin.png'),
   },
+
+  {
+    id: '9',
+    productcategory: 'Glas',
+    handling: 'Glas Container',
+    advice:
+      'Best would be to seperate all items, such as lids and covers and these attached items into the yellow bin.',
+    image: require('./Picture/Glas.png'),
+  },
+
 ];
