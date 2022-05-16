@@ -5,15 +5,28 @@ import DropDown from './Components/DropDown';
 import SearchButton from './Components/Button';
 import ResultBox from './Components/ResultBox';
 import { products } from './Components/productData';
+import ProfilePicture from '../src/Components/Picture/ProfilePicture.png';
 
 function App() {
-  const [isSelected, setIsSelected] = useState(false);
+
   return (
     <body className="body">
       <form>
         <Header />
         <h1 className="question">What would You like to give back?</h1>
-        <DropDown isSelected={isSelected} />
+        <article> 
+          <img 
+          class="Profile Picture"
+          src={ProfilePicture}
+          alt='better be a pic'
+          width="30%"
+          height="30%"
+          justify-content="center"
+          display="flex"
+          />
+        </article>
+        {/* DropDown werden die Daten von productData.js übergeben: App.js -> DropDown.js */}
+        <DropDown products={products} />
         <br></br>
         <SearchButton />
         <h2 className="handling">Best Handling would be:</h2>
@@ -22,7 +35,6 @@ function App() {
           {' '}
         </label>
         <br></br>
-        <ResultBox products={products} isSelected={isSelected} />
       </form>
     </body>
   );
