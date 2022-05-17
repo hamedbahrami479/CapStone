@@ -5,7 +5,6 @@ const Header = () => {
     return( <HeaderStyled>
         <HgibStylesOne>Give It Back </HgibStylesOne>
         <HgibStylesTwo>It`s worthit</HgibStylesTwo>
-        <hr></hr>
         </HeaderStyled>
     );
 };
@@ -15,13 +14,13 @@ justify-content: center;
 text-align: center;
 `;
 
-const HgibStylesTwo = styled.h1`
+const HgibStylesTwo = styled.p`
 justify-content: center;
 text-align: center;
-font-size: 40 px;
+font-size: 60 px;
 `
 const HeaderStyled = styled.div`
-background-color: green;
+background-color: lightgreen;
 `
 
 export default Header;

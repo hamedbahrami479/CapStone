@@ -27,7 +27,7 @@ function ResultBox({ products, isSelected_DropDown }) {
       <StyledContainer>
         <br></br>
         <br></br>
-        <Heading>Best Handling would be:</Heading>
+        <Heading>Would be:</Heading>
         <Handling>{product_handling}</Handling>
         <HandlingImage src={product_image} alt={''}></HandlingImage>
         <InputContainer>
@@ -53,6 +53,7 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 `;
 
 const InputContainer = styled.section`
@@ -60,18 +61,21 @@ const InputContainer = styled.section`
   background-color: lightgray;
   border-radius: 2rem;
   height: 10rem;
-  width: 90%;
+  min-width: 95vw;
   margin: auto;
   display: block;
   display: flex;
   flex-direction: horizontal;
   align-items: center;
   justify-content: space-between;
+  border: 2.5px solid white;
 `;
 // tag image gegen img ausgetauscht <-----------
 const HandlingImage = styled.img`
   width: 20%;
   text-align: left;
+  border-radius: 5rem;
+  border: 1px solid white;
 `;
 
 const Handling = styled.h1`

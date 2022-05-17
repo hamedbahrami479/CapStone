@@ -7,18 +7,18 @@ function DropDown({ products }) {
 
   return (
     <StyledDropDownContainer class="section">
-      <label for="category-select">Choose your category:</label>
-      <br></br>
-      <br></br>
+      <StyledLabel> The Best Handling for</StyledLabel>
+      <label for="category-select"></label>
       <select
         name="selectProduct"
         className="custom-select"
         id="category-select"
         value={isSelected_DropDown}
         onChange={e => setIsSelected_DropDown(e.target.value)}
+        placeholder="--Please choose a Category--"
       >
         <option value="" selected>
-          --Please choose an Option--
+          --Choose Category--
         </option>
         <option value="Plasctic Transparent">Plastic Transparent</option>
         <option value="Plastic Black">Plastic Black</option>
@@ -42,6 +42,11 @@ const StyledDropDownContainer = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 `;
 
+const StyledLabel = styled.h1`
+font-size: 1rem;
+
+`;
 export default DropDown;

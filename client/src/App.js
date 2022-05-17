@@ -9,21 +9,20 @@ import ProfilePicture from '../src/Components/Picture/ProfilePicture.png';
 
 function App() {
   return (
-    <body className="body">
+    <div className="body">
       <form>
         <Header />
         <h1 className="question">What would You like to give back?</h1>
-        <article>
+        <article className="ContainerPic">
           <img
-            class="Profile Picture"
+            className="Profile-Picture"
             src={ProfilePicture}
             alt="better be a pic"
-            width="30%"
+            width="90%"
             height="30%"
-            justify-content="center"
-            display="flex"
           />
         </article>
+        <br></br>
         <DropDown products={products} />
         <br></br>
         <label className="label" for="result"></label>
@@ -32,7 +31,7 @@ function App() {
         </label>
         <br></br>
       </form>
-    </body>
+      </div>
   );
 }
 export default App;

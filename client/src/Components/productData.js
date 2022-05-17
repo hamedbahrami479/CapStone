@@ -57,7 +57,7 @@ export const products = [
     productcategory: 'Automotive Supply',
     handling: 'Special Handling by your nearest Recycling Center',
     advice:
-      'Regardless whether it is engine oil, gearing oil, cooling fluid, breaking fluid or body metall, all these materials need special handling. Did you know: Every seller of engine oil is obligated to take the used oil in exchange. Just fill it into the can you just received with the new oil and Give It Back. :)',
+      'Regardless whether it is engine oil, gearing oil, cooling fluid, breaking fluid or body metall, all these materials need special handling. Did you know: Every seller of engine oil is legally obligated to take the used oil in exchange. Just fill it into the canister you just received with the new oil and Give It Back. :)',
     image: require('./Picture/Special.png'),
   },
 
