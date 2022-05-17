@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-
 function ResultBox({ products, isSelected_DropDown }) {
   const [productData, setProductData] = useState([]);
 
@@ -25,14 +24,16 @@ function ResultBox({ products, isSelected_DropDown }) {
 
   return (
     <>
-      <br></br>
-      <br></br>
-      <h2 className="handling">Best Handling would be:</h2>
-      <InputContainer>
+      <StyledContainer>
+        <br></br>
+        <br></br>
+        <Heading>Best Handling would be:</Heading>
         <Handling>{product_handling}</Handling>
         <HandlingImage src={product_image} alt={''}></HandlingImage>
-        <HandlingAdvice>{product_advice}</HandlingAdvice>
-      </InputContainer>
+        <InputContainer>
+          <HandlingAdvice>{product_advice}</HandlingAdvice>
+        </InputContainer>
+      </StyledContainer>
     </>
   );
 }
@@ -40,24 +41,49 @@ function ResultBox({ products, isSelected_DropDown }) {
 }
 export default ResultBox;
 
-const InputContainer = styled.section`
-  size: 10ch;
-  background-color: rgb(0, 225, 255);
-  border-radius: 2rem;
-  height: 10rem;
-  width: 80%;
+const Heading = styled.h2`
+  font-size: 1rem;
   margin: auto;
   display: block;
+  justify-content: center;
+`;
+
+const StyledContainer = styled.div`
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const InputContainer = styled.section`
+  size: 10ch;
+  background-color: lightgray;
+  border-radius: 2rem;
+  height: 10rem;
+  width: 90%;
+  margin: auto;
+  display: block;
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content: space-between;
 `;
 // tag image gegen img ausgetauscht <-----------
 const HandlingImage = styled.img`
-  width: 10%;
+  width: 20%;
+  text-align: left;
 `;
 
 const Handling = styled.h1`
-  font-size: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: serif;
 `;
 
 const HandlingAdvice = styled.p`
   font-size: 1rem;
+  justify-content: flex-end;
+  text-align: left;
 `;

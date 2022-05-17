@@ -75,7 +75,7 @@ export const products = [
     productcategory: 'Glas',
     handling: 'Glas Container',
     advice:
-      'Best would be to seperate all items, such as lids and covers and these attached items into the yellow bin.',
+      'Best would be to seperate all items, such as lids and covers. These attached items go into the yellow bin.',
     image: require('./Picture/Glas.png'),
   },
 

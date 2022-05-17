@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import ResultBox from './ResultBox';
+import styled from 'styled-components';
 
 function DropDown({ products }) {
   const [isSelected_DropDown, setIsSelected_DropDown] = useState('');
 
   return (
-    <div>
+    <StyledDropDownContainer class="section">
       <label for="category-select">Choose your category:</label>
       <br></br>
       <br></br>
@@ -30,11 +31,17 @@ function DropDown({ products }) {
         <option value="Glas">Glas</option>
       </select>
       {/* ResultBox werden die props products und isSelected_DropDown übergeben: DropDown.js -> ResultBox.js */}
-      { <ResultBox products={products} isSelected_DropDown={isSelected_DropDown} />}
+      {<ResultBox products={products} isSelected_DropDown={isSelected_DropDown} />}
       <br></br>
       <br></br>
-    </div>
+    </StyledDropDownContainer>
   );
 }
+
+const StyledDropDownContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 export default DropDown;
