@@ -17,7 +17,7 @@ function DropDown({ products }) {
         onChange={e => setIsSelected_DropDown(e.target.value)}
       >
         <option value="" selected>
-          --Choose Category--
+          What would you like to GIve Back?
         </option>
         <option value="Plasctic Transparent">Plastic Transparent</option>
         <option value="Plastic Black">Plastic Black</option>
@@ -31,8 +31,6 @@ function DropDown({ products }) {
       </StyledSelect>
       {/* ResultBox werden die props products und isSelected_DropDown übergeben: DropDown.js -> ResultBox.js */}
       {<ResultBox products={products} isSelected_DropDown={isSelected_DropDown} />}
-      <br></br>
-      <br></br>
     </StyledDropDownContainer>
   );
 }
@@ -46,8 +44,10 @@ const StyledDropDownContainer = styled.section`
 
 const StyledSelect = styled.select`
   width: 75%;
-  height: 40px;
-  color: blue;
+  height: 20px;
+  /* color: blue; */
+  background-color: antiquewhite;
+  margin: auto;
 `;
 
 const StyledLabel = styled.h1`

@@ -22,12 +22,9 @@ return (
 
 
 const StyledFooter = styled.footer`
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  & nav > ul {
-    display: flex;
-    justify-content: space-between;
-  }
+   background-color: lightgreen;
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  height: 50px;
 `

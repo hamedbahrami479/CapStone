@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Header = () => {
   return (
     <HeaderStyled>
-      <HgibStylesOne>---GIB--- </HgibStylesOne>
+      <HgibStylesOne> - GIB - </HgibStylesOne>
       {/* <HgibStylesTwo>Give It Back</HgibStylesTwo> */}
     </HeaderStyled>
   );
@@ -12,7 +12,7 @@ const Header = () => {
 
 const HgibStylesOne = styled.h1`
   font-size: 50px;
-  margin-top: 20px;
+  margin-top: 0px;
   font-family: 'Courier New', Courier, monospace;
 
 `;
@@ -26,7 +26,7 @@ const HeaderStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70px;
+  height: 50px;
 `;
 
 export default Header;

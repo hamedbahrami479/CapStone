@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/Header';
 import DropDown from './Components/DropDown';
-
+import NavBar from './Components/NavBar'
 import ResultBox from './Components/ResultBox';
 import { products } from './Components/productData';
 import ProfilePicture from '../src/Components/Picture/ProfilePicture.png';
@@ -21,15 +21,12 @@ function App() {
             height="30%"
           />
         </article>
-        <h1 className="question">What would You like to give back?</h1>
-        <br></br>
         <DropDown products={products} />
-        <br></br>
         <label className="label" for="result"></label>
         <label className="label" htmlFor="result">
           {' '}
         </label>
-        <br></br>
+        <NavBar />
       </form>
     </div>
   );

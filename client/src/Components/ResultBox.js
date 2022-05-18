@@ -25,14 +25,10 @@ function ResultBox({ products, isSelected_DropDown }) {
   return (
     <>
       <StyledContainer>
-        <br></br>
-        <br></br>
         <Heading>Would be:</Heading>
         <Handling>{product_handling}</Handling>
         <HandlingImage src={product_image} alt={''}></HandlingImage>
-        <InputContainer>
-          <HandlingAdvice>{product_advice}</HandlingAdvice>
-        </InputContainer>
+        <InputContainer>{product_advice}</InputContainer>
       </StyledContainer>
     </>
   );
@@ -53,14 +49,13 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
 `;
 
 const InputContainer = styled.section`
   size: 10ch;
   background-color: lightgray;
   border-radius: 2rem;
-  height: 10rem;
+  height: 6.6rem;
   min-width: 95vw;
   margin: auto;
   display: block;
@@ -73,9 +68,9 @@ const InputContainer = styled.section`
 // tag image gegen img ausgetauscht <-----------
 const HandlingImage = styled.img`
   width: 20%;
-  text-align: left;
   border-radius: 10rem;
   border: 1px solid white;
+  justify-items: flex-end;
 `;
 
 const Handling = styled.h1`
@@ -84,10 +79,4 @@ const Handling = styled.h1`
   flex-direction: column;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
-`;
-
-const HandlingAdvice = styled.p`
-  font-size: 1rem;
-  justify-content: flex-end;
-  text-align: left;
 `;
