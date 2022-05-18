@@ -3,7 +3,9 @@ import ResultBox from './ResultBox';
 import styled from 'styled-components';
 
 function DropDown({ products }) {
-  const [isSelected_DropDown, setIsSelected_DropDown] = useState('');
+  const [isSelected_DropDown, setIsSelected_DropDown] = useState(
+    '--What would you like to GIve Back?--'
+  );
 
   return (
     <StyledDropDownContainer>
@@ -13,9 +15,11 @@ function DropDown({ products }) {
         name="selectCategory"
         id="category-select"
         value={isSelected_DropDown}
-        onChange={e => setIsSelected_DropDown(e.target.value)}
+        onChange={event => setIsSelected_DropDown(event.target.value)}
       >
-        <option value="--What would you like to GIve Back?--" selected>--What would you like to GIve Back?--</option>
+        <option value="--What would you like to GIve Back?--" selected>
+          --What would you like to GIve Back?--
+        </option>
         <option value="Plasctic Transparent">Plastic Transparent</option>
         <option value="Plastic Black">Plastic Black</option>
         <option value="Aluminum">Aluminum</option>

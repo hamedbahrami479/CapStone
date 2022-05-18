@@ -11,12 +11,10 @@ function ResultBox({ products, isSelected_DropDown }) {
   const product_handling = productData
     .filter(data => data.productcategory === isSelected_DropDown)
     .map(data => data.handling);
-  console.log('Output handling', product_handling);
 
   const product_image = productData
     .filter(data => data.productcategory === isSelected_DropDown)
     .map(data => data.image);
-  console.log('test B', product_image);
 
   const product_advice = productData
     .filter(data => data.productcategory === isSelected_DropDown)
@@ -39,8 +37,6 @@ export default ResultBox;
 
 const Heading = styled.h2`
   font-size: 1rem;
-  margin: auto;
-  display: block;
   justify-content: center;
 `;
 
