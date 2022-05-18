@@ -81,7 +81,7 @@ export const products = [
   {
     id: '10',
     productcategory: '--What would you like to GIve Back?--',
-    handling: 'No Category Choosen',
+    handling: 'No Category Selected',
     advice:
       '.',
     image: require('./Picture/Question.png'),

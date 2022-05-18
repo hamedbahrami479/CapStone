@@ -14,7 +14,7 @@ function App() {
         <Header />
         <article className="ContainerPic">
           <img
-            className="Profile-Picture"
+            className="ProfilePicture"
             src={ProfilePicture}
             alt="better be a pic"
             width="90%"
@@ -22,13 +22,10 @@ function App() {
           />
         </article>
         <DropDown products={products} />
-        <label className="label" for="result"></label>
-        <label className="label" htmlFor="result">
-          {' '}
-        </label>
         <NavBar />
       </form>
     </div>
   );
 }
+
 export default App;

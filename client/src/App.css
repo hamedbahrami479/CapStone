@@ -5,7 +5,7 @@
   
 }
 
-.Profile-Picture {
+.ProfilePicture {
   border-radius: 1rem;
   /* border: 2.5px solid white; */
   margin: 20px;
@@ -19,37 +19,12 @@
   align-items: center;
 }
 
-.question {
-  text-align: center;
-  font-size: large;
-}
-
-.container {
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.searchButton {
-  size: 50px;
-}
-
-.handling {
-  text-align: center;
-}
 
 
-.App {
-  text-align: center;
-}
+
+
+
+
 
 
 

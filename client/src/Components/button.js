@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-
 const SearchButton = () => {
-  return (
-      <button>Search</button>
-  );
+  return <button>Search</button>;
 };
 
 // const ButtonStyled = styled.button`

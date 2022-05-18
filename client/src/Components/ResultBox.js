@@ -65,7 +65,7 @@ const InputContainer = styled.section`
   justify-content: space-between;
   border: 2.5px solid white;
 `;
-// tag image gegen img ausgetauscht <-----------
+
 const HandlingImage = styled.img`
   width: 20%;
   border-radius: 10rem;
