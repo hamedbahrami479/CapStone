@@ -2,31 +2,30 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './Components/Header';
 import DropDown from './Components/DropDown';
-import SearchButton from './Components/Button';
+import NavBar from './Components/NavBar'
 import ResultBox from './Components/ResultBox';
+import { products } from './Components/productData';
+import ProfilePicture from '../src/Components/Picture/ProfilePicture.png';
 
 function App() {
-  const [product, setProduct] = useState();
   return (
-    <body className="body">
+    <div className="body">
       <form>
         <Header />
-        <h1 className="question">What would You like to give back?</h1>
-        <DropDown />
-        <br></br>
-        {product}
-        <br></br>
-        <br></br>
-        <SearchButton />
-        <h2 className="handling">Best Handling would be:</h2>
-        <label className="label" for="result"></label>
-        <label className="label" htmlFor="result">
-          {' '}
-        </label>
-        <br></br>
-        <ResultBox />
+        <article className="ContainerPic">
+          <img
+            className="ProfilePicture"
+            src={ProfilePicture}
+            alt="better be a pic"
+            width="90%"
+            height="30%"
+          />
+        </article>
+        <DropDown products={products} />
+        <NavBar />
       </form>
-    </body>
+    </div>
   );
 }
+
 export default App;

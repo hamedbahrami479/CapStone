@@ -1,25 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
-
-/*function searchCorrectHandling() {
-  const [product, setProduct] = useState()
-
-function getCorrectHandling () {
-  const correctHandling = useEffect(() => {
-    localStorage.getItem('product')
-  })
-}
-on Click={searchCorrectHandling}
-*/
-
-
-
 const SearchButton = () => {
-  return (
-    <div className="container">
-      <button>Search</button>
-    </div>
-  );
+  return <button>Search</button>;
 };
+
+// const ButtonStyled = styled.button`
+//   justify-content: flex-end;
+//   padding: 0.7rem 2rem;
+//   border-radius: 0.5rem;
+//   background-color: var(--color-red);
+//   border: none;
+//   color: white;
+//   font-style: italic;
+//   font-weight: 900;`
+
 export default SearchButton;
