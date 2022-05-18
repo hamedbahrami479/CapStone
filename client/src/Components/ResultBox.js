@@ -38,6 +38,7 @@ export default ResultBox;
 const Heading = styled.h2`
   font-size: 1rem;
   justify-content: center;
+  margin: 0.7rem;
 `;
 
 const StyledContainer = styled.div`
@@ -75,4 +76,5 @@ const Handling = styled.h1`
   flex-direction: column;
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
+  margin: 0.5rem;
 `;

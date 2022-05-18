@@ -46,12 +46,13 @@ const StyledDropDownContainer = styled.section`
 const StyledSelect = styled.select`
   width: 75%;
   height: 20px;
-  /* color: blue; */
+  border-radius: 1rem;
   background-color: antiquewhite;
   margin: auto;
 `;
 
 const StyledLabel = styled.h1`
   font-size: 1rem;
+  margin: 0.75rem;
 `;
 export default DropDown;

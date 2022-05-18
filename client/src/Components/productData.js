@@ -4,7 +4,7 @@ export const products = [
     productcategory: 'Plastic Black',
     handling: 'Yellow Bin',
     advice:
-      'Did you know, sorting machines are not always able to sort out black plastic. But still: Put it into the yellow bin. But, maybe you can try to avoid black plastics?',
+      'Did you know, sorting machines are not always able to sort out black plastics. Nevertheless, put it into the yellow bin. But, maybe you want to set a new goal and avoid black plastics entirely? :)',
     image: require('./Picture/Yellow-Bin.png'),
   },
 
@@ -82,9 +82,7 @@ export const products = [
     id: '10',
     productcategory: '--What would you like to GIve Back?--',
     handling: 'No Category Selected',
-    advice:
-      '.',
+    advice: '.',
     image: require('./Picture/Question.png'),
   },
-
 ];

@@ -17,18 +17,10 @@ return (
 )
 }
 
-
-
-
-
 const StyledFooter = styled.footer`
   background-color: lightgreen;
   display: flex;
   flex-direction: horizontal;
   align-items: center;
   height: 50px;
-  margin: 0;
-  /* position: fixed; */
-  bottom: 0;
-
 `
