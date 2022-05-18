@@ -77,4 +77,14 @@ export const products = [
       'Best would be to seperate all items, such as lids and covers. These attached items go into the yellow bin.',
     image: require('./Picture/Glas.png'),
   },
+
+  {
+    id: '10',
+    productcategory: '--What would you like to GIve Back?--',
+    handling: 'No Category Choosen',
+    advice:
+      '.',
+    image: require('./Picture/Question.png'),
+  },
+
 ];

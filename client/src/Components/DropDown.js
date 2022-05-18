@@ -10,15 +10,12 @@ function DropDown({ products }) {
       <StyledLabel> The Best Handling for</StyledLabel>
       <label for="category-select"></label>
       <StyledSelect
-        name="selectProduct"
-        className="custom-select"
+        name="selectCategory"
         id="category-select"
         value={isSelected_DropDown}
         onChange={e => setIsSelected_DropDown(e.target.value)}
       >
-        <option value="" selected>
-          What would you like to GIve Back?
-        </option>
+        <option value="--What would you like to GIve Back?--" selected>--What would you like to GIve Back?--</option>
         <option value="Plasctic Transparent">Plastic Transparent</option>
         <option value="Plastic Black">Plastic Black</option>
         <option value="Aluminum">Aluminum</option>
