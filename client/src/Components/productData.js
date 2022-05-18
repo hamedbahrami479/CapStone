@@ -1,5 +1,4 @@
 export const products = [
- 
   {
     id: '2',
     productcategory: 'Plastic Black',
@@ -57,7 +56,7 @@ export const products = [
     productcategory: 'Automotive Supply',
     handling: 'Recycling Center',
     advice:
-      'Engine oil, gearing oil, cooling fluid, breaking fluid, body parts, need special handling. Did you know: Every seller of engine oil is legally obligated to take the used oil in exchange. Just fill it into the canister you just received with the new oil and Give It Back. :)',
+      'All kinds of fluid need special handling. Did you know: Every engine oil seller is legally obligated to take used oil in exchange. Just fill it up and Give It Back. :)',
     image: require('./Picture/Special.png'),
   },
 
@@ -78,5 +77,4 @@ export const products = [
       'Best would be to seperate all items, such as lids and covers. These attached items go into the yellow bin.',
     image: require('./Picture/Glas.png'),
   },
-
 ];
