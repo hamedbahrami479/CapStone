@@ -74,7 +74,7 @@ const InputContainer = styled.section`
 const HandlingImage = styled.img`
   width: 20%;
   text-align: left;
-  border-radius: 5rem;
+  border-radius: 10rem;
   border: 1px solid white;
 `;
 
@@ -83,7 +83,7 @@ const Handling = styled.h1`
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: serif;
+  font-family: 'Courier New', Courier, monospace;
 `;
 
 const HandlingAdvice = styled.p`

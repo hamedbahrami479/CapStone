@@ -13,7 +13,7 @@ export const products = [
     id: '3',
     productcategory: 'Aluminum',
     handling: 'Yellow Bin',
-    advice: 'Perfectly recycable as long it is clean.',
+    advice: 'Perfectly recycable as long as it is clean.',
     image: require('./Picture/Yellow-Bin.png'),
   },
 
@@ -55,7 +55,7 @@ export const products = [
   {
     id: '8',
     productcategory: 'Automotive Supply',
-    handling: 'Special Handling by your nearest Recycling Center',
+    handling: 'By nearest Recycling Center',
     advice:
       'Regardless whether it is engine oil, gearing oil, cooling fluid, breaking fluid or body metall, all these materials need special handling. Did you know: Every seller of engine oil is legally obligated to take the used oil in exchange. Just fill it into the canister you just received with the new oil and Give It Back. :)',
     image: require('./Picture/Special.png'),

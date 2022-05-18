@@ -6,16 +6,15 @@ function DropDown({ products }) {
   const [isSelected_DropDown, setIsSelected_DropDown] = useState('');
 
   return (
-    <StyledDropDownContainer class="section">
+    <StyledDropDownContainer>
       <StyledLabel> The Best Handling for</StyledLabel>
       <label for="category-select"></label>
-      <select
+      <StyledSelect
         name="selectProduct"
         className="custom-select"
         id="category-select"
         value={isSelected_DropDown}
         onChange={e => setIsSelected_DropDown(e.target.value)}
-        placeholder="--Please choose a Category--"
       >
         <option value="" selected>
           --Choose Category--
@@ -29,7 +28,7 @@ function DropDown({ products }) {
         <option value="Paper Clean">Paper Clean</option>
         <option value="Automotive Supply">Automotive Supply</option>
         <option value="Glas">Glas</option>
-      </select>
+      </StyledSelect>
       {/* ResultBox werden die props products und isSelected_DropDown übergeben: DropDown.js -> ResultBox.js */}
       {<ResultBox products={products} isSelected_DropDown={isSelected_DropDown} />}
       <br></br>
@@ -45,8 +44,13 @@ const StyledDropDownContainer = styled.section`
   justify-content: space-between;
 `;
 
-const StyledLabel = styled.h1`
-font-size: 1rem;
+const StyledSelect = styled.select`
+  width: 75%;
+  height: 40px;
+  color: blue;
+`;
 
+const StyledLabel = styled.h1`
+  font-size: 1rem;
 `;
 export default DropDown;

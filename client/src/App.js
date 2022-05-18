@@ -12,7 +12,6 @@ function App() {
     <div className="body">
       <form>
         <Header />
-        <h1 className="question">What would You like to give back?</h1>
         <article className="ContainerPic">
           <img
             className="Profile-Picture"
@@ -22,6 +21,7 @@ function App() {
             height="30%"
           />
         </article>
+        <h1 className="question">What would You like to give back?</h1>
         <br></br>
         <DropDown products={products} />
         <br></br>
@@ -31,7 +31,7 @@ function App() {
         </label>
         <br></br>
       </form>
-      </div>
+    </div>
   );
 }
 export default App;

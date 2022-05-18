@@ -1,26 +1,32 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Header = () => {
-    return( <HeaderStyled>
-        <HgibStylesOne>Give It Back </HgibStylesOne>
-        <HgibStylesTwo>It`s worthit</HgibStylesTwo>
-        </HeaderStyled>
-    );
+  return (
+    <HeaderStyled>
+      <HgibStylesOne>---GIB--- </HgibStylesOne>
+      {/* <HgibStylesTwo>Give It Back</HgibStylesTwo> */}
+    </HeaderStyled>
+  );
 };
 
 const HgibStylesOne = styled.h1`
-justify-content: center;
-text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+
 `;
 
 const HgibStylesTwo = styled.p`
-justify-content: center;
-text-align: center;
-font-size: 60 px;
-`
+  font-size: 80 px;
+
+`;
 const HeaderStyled = styled.div`
-background-color: lightgreen;
-`
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+`;
 
 export default Header;
