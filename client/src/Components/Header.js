@@ -1,31 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
+import VisionIcon from './icons/VisionIcon';
+import MissionIcon from './icons/MissionIcon';
 
 const Header = () => {
   return (
     <HeaderStyled>
-      <HgibStylesOne> - GIB - </HgibStylesOne>
-      {/* <HgibStylesTwo>Give It Back</HgibStylesTwo> */}
+      <VisionIcon />
+      <GIBStyles>GIB</GIBStyles>
+      <MissionIcon />
     </HeaderStyled>
   );
 };
 
-const HgibStylesOne = styled.h1`
+const GIBStyles = styled.h1`
   font-size: 50px;
   margin-top: 0px;
   font-family: 'Courier New', Courier, monospace;
-
-`;
-
-const HgibStylesTwo = styled.p`
-  font-size: 80 px;
-
+  font-weight: 5;
+  color: blue;
 `;
 const HeaderStyled = styled.div`
   background-color: lightgreen;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: horizontal;
+  justify-content: space-around;
   height: 50px;
 `;
 
