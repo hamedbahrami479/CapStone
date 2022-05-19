@@ -1,10 +1,10 @@
 import React,{ useState } from 'react';
 import Name from './Components/Header'
+import App from './client/src/'
 
 
 function App() {
 
-const [product, setProduct] = useState();
 
 return (
 <div>

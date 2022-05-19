@@ -18,7 +18,7 @@ function DropDown({ products }) {
         onChange={event => setIsSelected_DropDown(event.target.value)}
       >
         <option value="--What would you like to GIve Back?--" selected>
-          --What would you like to GIve Back?--
+        --What would you like to GIve Back?--
         </option>
         <option value="Plasctic Transparent">Plastic Transparent</option>
         <option value="Plastic Black">Plastic Black</option>

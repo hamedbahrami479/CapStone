@@ -1,20 +1,24 @@
-import React from 'react'
-import styled from 'styled-components'
-
+import React from 'react';
+import { NavLink } from 'react-router-dom'
+import styled from 'styled-components';
+import HomeIcon from './icons/HomeIcon'
+import { Link } from 'react-router-dom';
 
 export default function NavBar() {
-return (
-<StyledFooter>
-    {/* <nav>
-        <ul>
-            <li>
-                
-            </li>
-        </ul>
-    </nav> */}
-</StyledFooter>
-
-)
+  return (
+    <StyledFooter>
+        <nav>
+            <ul>
+                <NavLink>
+                    <li>
+                        <HomeIcon />
+                        <p>Home</p>
+                    </li>
+                </NavLink>
+            </ul>
+      </nav>
+    </StyledFooter>
+  );
 }
 
 const StyledFooter = styled.footer`
@@ -23,4 +27,7 @@ const StyledFooter = styled.footer`
   flex-direction: horizontal;
   align-items: center;
   height: 50px;
-`
+  position: sticky;
+`;
+{/* <Link to="/">Home</Link>
+<Link to="/">Balance</Link> */}
