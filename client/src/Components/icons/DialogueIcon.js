@@ -1,15 +1,15 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { GiMeditation } from 'react-icons/gi';
+import { AiOutlineMessage } from 'react-icons/ai';
 
-function BalanceIcon() {
+function DialogueIcon() {
     return (
       <IconContext.Provider value={{ size: '3rem ' }}>
         <>
-          <GiMeditation />
+          <AiOutlineMessage />
         </>
       </IconContext.Provider>
     );
   }
   
-  export default BalanceIcon;
+  export default DialogueIcon;
