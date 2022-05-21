@@ -2,15 +2,14 @@
   background-color: #b0e0e6;
   position: fixed;
   height: 100%;
-  
 }
 
 .ProfilePicture {
   border-radius: 1rem;
   /* border: 2.5px solid white; */
   margin: 20px;
-  width: 50%;
-  height: 50%;
+  width: 65%;
+  height: 65%;
 }
 
 .ContainerPic {
@@ -18,16 +17,3 @@
   flex-direction: column;
   align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

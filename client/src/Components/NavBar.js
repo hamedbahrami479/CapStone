@@ -7,18 +7,18 @@ import DialogueIcon from './icons/DialogueIcon';
 export default function NavBar() {
   return (
     <StyledFooter>
-      <IconWrapper>
+      <IconWrapperN>
         <DialogueIcon />
-        {/* <StyledIconLabel>Not Found?</StyledIconLabel> */}
-      </IconWrapper>
-      <IconWrapper>
+        <StyledIconLabel>Not Found?</StyledIconLabel>
+      </IconWrapperN>
+      <IconWrapperN>
         <HomeIcon />
-        {/* <StyledIconLabel>Home</StyledIconLabel> */}
-      </IconWrapper>
-      <IconWrapper>
+        <StyledIconLabel>Home</StyledIconLabel>
+      </IconWrapperN>
+      <IconWrapperN>
         <BalanceIcon />
-        {/* <StyledIconLabel>Your Balance</StyledIconLabel> */}
-      </IconWrapper>
+        <StyledIconLabel>Your Balance</StyledIconLabel>
+      </IconWrapperN>
     </StyledFooter>
   );
 }
@@ -27,20 +27,22 @@ const StyledFooter = styled.footer`
   background-color: lightgreen;
   display: flex;
   flex-direction: horizontal;
-  justify-content: space-around;
-  height: 50px;
+  height: 10%;
   position: sticky;
+  justify-content: space-around;
 `;
 
-const IconWrapper = styled.div`
+const IconWrapperN = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
 const StyledIconLabel = styled.p`
-  font-size: 0.8;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 `;
+
 {
   /* <Link to="/">Home</Link>
 <Link to="/">Balance</Link> */

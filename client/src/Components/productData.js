@@ -39,7 +39,7 @@ export const products = [
     productcategory: 'Paper Coated',
     handling: 'Black Bin',
     advice:
-      'Unfortunately Paper will only be recycled and reused, when it is clean and uncoated. Washing the recycled supply is not part of the sorting process.',
+      'Some backeries wrap there products into coated paper. Unfortunately Paper will only be recycled and reused, when it is clean and uncoated. Such thing as uncoating the supply is not part of the sorting process.',
     image: require('./Picture/Black-Bin.png'),
   },
 

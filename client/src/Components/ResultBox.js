@@ -52,7 +52,7 @@ const InputContainer = styled.section`
   size: 10ch;
   background-color: lightgray;
   border-radius: 1rem;
-  height: 6rem;
+  height: 10rem;
   min-width: 95vw;
   margin: auto;
   display: block;
